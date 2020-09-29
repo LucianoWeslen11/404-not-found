@@ -1,0 +1,50 @@
+:root{
+  --grey1: #333333;
+  --grey2: #4f4f4f;
+  --white: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Space Mono";
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 30px 60px;
+}
+
+.header .title{
+  color: var(--grey1);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer span{
+  width: 100%;
+  color: var(--grey1);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
