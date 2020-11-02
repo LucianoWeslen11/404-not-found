@@ -1,75 +1,67 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">404 NOT FOUND</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
-<div align="center">
-  <h3>
-    <a href="https://lucianoweslen11.github.io/404-not-found">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://github.com/lucianoweslen11/404-not-found">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
-      Challenge
-    </a>
-  </h3>
-</div>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://lucianoweslen.dev/404-not-found">
+        <img src="https://img.shields.io/badge/Demo-informational?style=for-the-badge&logo=quote&logoColor=white&color=007BFE" alt="Demo" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lucianoweslen11/404-not-found">
+        <img src="https://img.shields.io/badge/Solution-informational?style=for-the-badge&logo=quote&logoColor=white&color=FF911C" alt="Solution" />
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+        <img src="https://img.shields.io/badge/Challenge-informational?style=for-the-badge&logo=quote&logoColor=white&color=007BFE" alt="Challenge" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
+## Resumo
 
 - [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
+- [Design](#design)
+- [Tecnologias](#tecnologias)
+- [Feito por](#feito-por)
+- [License](#license)
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./assets/overview.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+## 🎨 Design
+O **design** da página foi feito utilizando a ferramenta **Figma**, pode ser acessado o projeto através do link abaixo.
+<br/>
+<br/>
+<a href="https://www.figma.com/file/QeKWLNhB13zDjJzqR22TKE/404-page-challenge?node-id=0%3A1" title="Figma">
+  <img src="https://img.shields.io/badge/Figma-link-FF911C?style=for-the-badge" alt="Versão" />
+</a>
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+## ⏳ Tecnologias
+Para este projeto foi utilizado de **HTML** e **CSS**.
 
-### Built With
+- ![](https://img.shields.io/badge/-html5-FF911C?style=for-the-badge)
+- ![](https://img.shields.io/badge/-css3-FF911C?style=for-the-badge)
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+## 👨‍💻 Feito por
+<table>
+  <tr>
+    <td align="center"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/36344130?s=460&u=8f38afb60832d4576570ab1672894ac935e65db6&v=4" width="100px;" alt=""/><br /><sub><b><a href="https://lucianoweslen.dev/nexus" title="Luciano">Luciano W. da Silva</a></b></sub><br/>Desenvolvedor Web</td>
+  </tr>
+</table>
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+## 📜 License
+O projeto está sobre a licença [MIT](./LICENSE)
 
-## Features
+<br/>
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+![](https://img.shields.io/badge/Nunca%20esque%C3%A7a%20de-aproveitar%20todos%20os%20momentos-informational?style=for-the-badge&logo=quote&logoColor=white&color=007BFE)
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
-
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://lucianoweslen11.github.io)
-- GitHub [@your-username](https://github.com/lucianoweslen11)
-- Twitter [@your-twitter](https://twitter.com/lucianoweslen11)
+![](/assets/icons/heart.svg)

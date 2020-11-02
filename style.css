@@ -15,13 +15,9 @@
 body{
   width: 100vw;
   height: 100vh;
-  position: relative;
 }
 
-.header{
-  position: absolute;
-  top: 0;
-  width: 100%;
+body .header{
   margin: 30px 60px;
 }
 
@@ -31,14 +27,55 @@ body{
   font-weight: 700;
 }
 
+body main{
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+}
+
+main img{
+  margin-right: 100px;
+  height: 447.43px;
+  width: 539,22px;
+}
+
+main .content{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .content .title{
+  font-size: 64px;
+  font-weight: 700;
+} 
+
+main .content .paragraph{
+  width: 300px;
+  margin-top: 40px;
+}
+
+main .content .btn{
+  background-color: var(--grey1);
+  height: 60px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  margin-top: 40px;
+}
+
 .footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: 40px;
   display: flex;
   align-items: center;
   justify-items: center;
+
+  margin-top: 100px;
 }
 
 .footer span{
@@ -47,4 +84,30 @@ body{
   font-size: 14px;
   font-weight: 600;
   text-align: center;
+}
+
+@media (max-width: 900px){
+
+  body main {
+    margin-top: 200px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main img{
+    margin-right: 0;
+    height: 280px;
+  }
+  main .content{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  main .content .title{
+    font-size: 48px;
+  }
+  body .footer{
+    margin-top: 200px;
+  }
 }
